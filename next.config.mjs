@@ -1,7 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   experimental: {
-    appDir: true,
     serverComponentsExternalPackages: ["mongoose"],
   },
   images: {
@@ -16,5 +15,4 @@ const nextConfig = {
   }
 }
 
-// Convert CommonJS export to ES module export
 export default nextConfig;
